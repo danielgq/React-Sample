@@ -8,7 +8,8 @@ class CommentListContainer extends Component {
         comments: PropTypes.array,
         initComments: PropTypes.func,
         onDeleteComment: PropTypes.func
-      }*/
+      }
+      */
 
     componentWillMount() {
         this._loadComments()
